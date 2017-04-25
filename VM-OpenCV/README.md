@@ -92,7 +92,7 @@ FFMPEG: YES
 * Again coffee is in order
 * Install: sudo make install
 * Add new dynamic library to your environment: sudo ldconfig
-* Add the lib in your virtualenv (mine is "cv"): `ln -s /usr/local/lib/python3.5/site-packages/cv2.cpython-35m.so ~/.virtualenvs/cv/lib/python3.4/site-packages/cv2.so`
+* Add the lib in your virtualenv (mine is "cv"): `ln -s /usr/local/lib/python3.5/site-packages/cv2.cpython-35m.so ~/.virtualenvs/*cv*/lib/python3.4/site-packages/cv2.so`
 
 
 Try it:
