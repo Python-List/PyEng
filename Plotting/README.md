@@ -1,2 +1,2 @@
-Note: Not an error per say, however it is recommended to organize the code in functions, and to set the module __name__
-(like "__main__") in which said functions should be ran (or not if it's a library)
+*Note: Not an error per say, however it is recommended to organize the code in functions, and to set the module __name__
+(like "__main__") in which said functions should be ran (or not if it's a library)*
