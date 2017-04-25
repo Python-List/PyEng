@@ -48,6 +48,8 @@ You should be on the desktop now
 
 # Let's install OpenCV3 with Python3
 
+A very helpful article regarding this (kudos to the author Adrian): http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/ 
+
 * Install build tools: `sudo apt install build-essential cmake git pkg-config`
 * Install video libraries (you can use more if necessary): sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev`
 * Install the GUI features of OpenCV: `sudo apt install libgtk2.0-dev`
