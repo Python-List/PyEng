@@ -9,6 +9,7 @@ if you have only 32 bit VMs enabled in Virtualbox and wish to have 64 bit VMs su
 * Download an ISO: https://www.linuxmint.com/download.php 
 *use what's needed for your Virtualbox install, 32 vs 64 bits, which desktop you prefer is up to you, I personnally enjoy XFCE*
 
+## Configure a VM
 * Start VirtualBox
 * Click on New
 * Name it however you want (for this tutorial, I used OpenCV-Test)
@@ -28,7 +29,7 @@ if you have only 32 bit VMs enabled in Virtualbox and wish to have 64 bit VMs su
 * Select again your VM in the main menu
 * Click on start
 
-# The install procedure shall begin:
+## Install the OS
 
 * First of all, patiently wait (it can take several minutes, as the OS is loading into memory, which is no small task by any mean)
 *Note: Do not bother about warning/error messages, except if the system crashes (never happened to me, though if it happens let me know)*
