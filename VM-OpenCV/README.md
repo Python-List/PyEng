@@ -5,7 +5,8 @@ if you use Arch or Gentoo, you might have some more work to do, like installing 
 * A pain point is to enable the virtualisation to 64 bit depending on your OS and Bios settings (see this article, particularly the "Bottom line" section, http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/#.WP22Y9Ay_Dc)
 if you have only 32 bit VMs enabled in Virtualbox and wish to have 64 bit VMs supported
 
-#Download a Mint iso: https://www.linuxmint.com/download.php 
+# Install a Mint VM: 
+* Download an ISO: https://www.linuxmint.com/download.php 
 *use what's needed for your Virtualbox install, 32 vs 64 bits, which desktop you prefer is up to you, I personnally enjoy XFCE*
 
 * Start VirtualBox
@@ -44,7 +45,7 @@ if you have only 32 bit VMs enabled in Virtualbox and wish to have 64 bit VMs su
 * Remove the ISO from the IDE Controller (in the configuration -> storage, see previous section)
 You should be on the desktop now
 
-# Let's start with OpenCV3 and Python3
+# Let's install OpenCV3 with Python3
 
 * Install build tools: `sudo apt install build-essential cmake git pkg-config`
 * Install video libraries (you can use more if necessary): sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev`
